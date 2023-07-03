@@ -39,7 +39,7 @@ func FlyURL() string {
 }
 
 func main() {
-	os.Setenv("DATABASE_URL", "postgresql://postgres:w2NG0nNGEduVbI6d1akY@containers-us-west-207.railway.app:7821/railway")
+	os.Setenv("DATABASE_URL", "postgres://postgres:wulan123@localhost:5432/postgres")
 
 	wg := sync.WaitGroup{}
 
